@@ -81,9 +81,17 @@ img {
 }
 
 /* Header */
+/* Perfomance */
+.webp .header {
+    background-image: url(../img/banner.webp);
+}
+
+/* Perfomance */
+.no-webp .header {
+    background-image: url(../img/banner.jpg);
+}
 
 .header {
-    background-image: url(../img/banner.jpg);
     height: 60rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -203,7 +211,8 @@ img {
     .button {
         display: inline-block;
     }
-    .button:hover{
+
+    .button:hover {
         cursor: pointer;
     }
 }
